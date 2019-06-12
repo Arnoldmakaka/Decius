@@ -4,12 +4,13 @@ import {createSwitchNavigator, createStackNavigator, createAppContainer} from 'r
 import {Icon, Spinner} from 'native-base';
 import firebase from 'react-native-firebase';
 
-import Home from './Home';
 
-export default class ToDashboard extends Component{
+export default class Chatting extends Component{
   render() {
     return (
-      <Home />
+      <View style={{justifyContent: 'center', alignItems: 'center', }}>
+          <Text>HHSDJKLAHSJDADA</Text>
+      </View>
     );
   }
 }

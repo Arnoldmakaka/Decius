@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
-import {Platform, AsyncStorage, ImageBackground, Button, Alert, ScrollView, StyleSheet, Share, Text, Modal, View, StatusBar, Picker, TextInput, KeyboardAvoidingView, Image, TouchableHighlight, TouchableOpacity, Linking} from 'react-native';
-import {Icon} from 'native-base';
+import {Platform, AsyncStorage, YellowBox, ImageBackground, Button, Alert, ScrollView, StyleSheet, Share, Text, Modal, View, StatusBar, Picker, TextInput, KeyboardAvoidingView, Image, TouchableHighlight, TouchableOpacity, Linking} from 'react-native';
+import {createSwitchNavigator, createStackNavigator, createAppContainer} from 'react-navigation';
+import {Icon, Spinner} from 'native-base';
+import firebase from 'react-native-firebase';
 
 export default class WelcomeScreen extends Component{
   render() {
